@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>About</title>
+    <link rel="stylesheet" href="../home/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="./about.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="../home/footer.css">
+    <link rel="stylesheet" href="../home/style.css">
+    <link rel="stylesheet" href="../home/dropdown.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            KMT
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li id="dd"><a href="#">Acounnte &dtrif;</a>
+                    <ul class="dropdown">
+                        <li id="ff"><a href="../about/about.html">About</a></li>
+                        <li id="signUpForHiadenOrShow"><a href="../signUp/signUp.html">Register</a></li>
+                        <li id="ff"><a href="../Setting/setting.html" id="Setting">Setting</a></li>
+                        <li id="loginForHiadenOrShow"><a href="../login/login.html">Login</a></li>
+                        <li id="logutForHiadenOrShow"><a id="logout">LogOut</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <li id="items"><a href="../home/index.html">Home</a></li>
+            <li id="items"><a href="../MovieView/index.html">Movie</a></li>
+            <li id="items"><a href="../tv_show/index.html">Tv show</a></li>
+            <li id="items"><a href="../favourite/favourite.html">Favourite</a></li>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+        <form action="../Search/index.html" method="get">
+            <input type="search" class="search-data" placeholder="Search" required name="s">
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+    </nav>
+    <div id="about-section">
+        <h1 id="AboutUs">About Our Team</h1>
+    </div>
+
+    <!-- <h1 style="text-align:center; margin-top: 20px; user-select:none;">Our Team</h1> -->
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="./person1.jpg" alt="Jane"
+                    style="width: 100%; object-fit: cover; height: 335px; border-radius: 5px 5px 0px 0px;">
+                <div class="container">
+                    <h2>peshawa</h2>
+                    <p id="title">Progammer</p>
+                    <p id="me">i am devloper of (HTML, CSS, Java, Java Script, PHP, React, React Native)</p>
+                    <p id="email-me">peshawa.1914215@charmouniversity.org</p>
+                    <!-- <p><button class="button">Contact</button></p> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="./person2.jpg" alt="Mike"
+                    style="width: 100%; object-fit: cover; height: 335px; border-radius: 5px 5px 0px 0px;">
+                <div class="container">
+                    <h2>Harem</h2>
+                    <p id="title">Programmer and Designer</p>
+                    <p id="me">i am devloper of (HTML, CSS, Java, Java Script, PHP, C#, React, React Native)</p>
+                    <p id="email-me">Harem.23.122.22@Charmouniversity</p>
+                    <!-- <p><button class="button">Contact</button></p> -->
+                </div>
+            </div>
+        </div>
+        <div class="containers">
+            <h2 style="user-select: none;color: aliceblue;">Write Us</h2>
+            <form id="form" action="https://formsubmit.co/f0491bbac3df64dc21fc4df685e9f67e" method="POST">
+                <input type="hidden" name="_next"
+                    value="https://kurd-movie-trailer.web.app/TeamProject/home/index.html">
+                <input type="hidden" name="_subject" value="Team Group user massege">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <input type="text" name="userName" id="name" placeholder=" Enter your name" required>
+                <textarea name="message" id="message" cols="30" rows="10"
+                    placeholder="Enter your message here"></textarea>
+                <button id="sendmessage" name="submit" onclick="mysended()">Send</button>
+            </form>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <h3>Kurd Movie Trailer</h3>
+                <p>This website is for movie trailer you can find any movie you think about in the website you can know
+                    about everything of the movie you like and you can have account for free and you can save your
+                    favuret
+                    movie on favuret page.
+                </p>
+                <!-- <ul class="socials">
+                    <li><a href="#"><i></i></a></li>
+                    <li><a href="#"><i></i></a></li>
+                    <li><a href="#"><i></i></a></li>
+                    <li><a href="#"><i></i></a></li>
+                    <li><a href="#"><i></i></a></li>
+                </ul> -->
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <a href="../MovieView/index.html">Movie</a></p>
+                <div class="footer-menu">
+                    <ul class="f-menu">
+                        <li><a href="../home/index.html">Home</a></li>
+                        <li><a href="../MovieSite/index.html">Movie</a></li>
+                        <li><a href="../tv_show/index.html">Tv</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+        <script src="../home/logUot.js"></script>
+        <script src="./main.js"></script>
+        <script src="../home/nav.js"></script>
+</body>
+
+</html>

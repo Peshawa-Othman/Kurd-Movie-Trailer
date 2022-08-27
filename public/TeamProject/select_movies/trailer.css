@@ -1,0 +1,39 @@
+#ytplayer {
+  padding: 11px;
+  width: 100%;
+  height: 378px;
+  border-radius: 30px;
+}
+#released {
+  font-size: 18px;
+  margin: 12px;
+}
+#sp {
+  font-size: 15px;
+}
+#list {
+  padding: 20px;
+  margin: 22px;
+  background: rgb(24 22 22);
+  color: bisque;
+  border-radius: 12px;
+}
+
+/* #list :hover {
+  color: chartreuse;
+} */
+
+@media screen and (max-width: 450px) {
+  #list {
+    text-align: center;
+  }
+  #sp {
+    position: relative;
+  }
+}
+
+#heart {
+  color: black;
+  padding: 4px;
+  font-size: 15px;
+}

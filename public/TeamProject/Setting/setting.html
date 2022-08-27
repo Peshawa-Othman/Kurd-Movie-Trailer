@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Kurd Movie Trailer</title>
+    <link rel="stylesheet" href="./setting.css">
+    <link rel="stylesheet" href="../home/nav.css">
+    <link rel="stylesheet" href="../home/footer.css">
+    <link rel="stylesheet" href="../home/dropdown.css">
+    <link rel="stylesheet" href="../home/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            KMT
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li id="dd"><a href="#">Acounnte &dtrif;</a>
+                    <ul class="dropdown">
+                        <li id="ff"><a href="../about/about.html">About</a></li>
+                        <li id="signUpForHiadenOrShow"><a href="../signUp/signUp.html">Register</a></li>
+                        <li id="ff"><a href="../Setting/setting.html" id="Setting">Setting</a></li>
+                        <li id="loginForHiadenOrShow"><a href="../login/login.html">Login</a></li>
+                        <li id="logutForHiadenOrShow"><a id="logout">LogOut</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <li id="items"><a href="../home/index.html">Home</a></li>
+            <li id="items"><a href="../MovieView/index.html">Movie</a></li>
+            <li id="items"><a href="../tv_show/index.html">Tv show</a></li>
+            <li id="items"><a href="../favourite/favourite.html">Favourite</a></li>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+        <form action="../Search/index.html" method="get">
+            <input type="search" class="search-data" placeholder="Search" required name="s">
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+    </nav>
+    <div id="theData">
+        <div id="data">Name: <span id="name"></span></div>
+        <div id="data">Email: <span id="theemail"></span></div>
+        <div id="data">Password: <span id="password"></span></div>
+        <div id="data">Age: <span id="age"></span></div>
+    </div>
+    <form>
+        <h1 id="UpdateData">Update Data</h1>
+        <div class="input-div one">
+            <div class="i">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="div">
+                <h5>User Name</h5>
+                <input id="userName" type="text" class="input">
+            </div>
+        </div>
+        <h6 style="color: red" id="rooleName"></h6>
+        <div class="input-div one">
+            <div class="i">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="div">
+                <h5>Email</h5>
+                <input id="email" type="email" class="input">
+            </div>
+        </div>
+        <h6 style="color: red" id="rooleEmail"></h6>
+        <div class="input-div pass">
+            <div class="i">
+                <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+                <h5>Password</h5>
+                <input id="inputPassword" type="password" class="input">
+                <span class="eye" onclick="myFunction()">
+                    <i id="hide1" class="fa fa-eye" aria-hidden="true"></i>
+                    <i id="hide2" class="fa fa-eye-slash" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+        <h6 style="color: red" id="roolePassword"></h6>
+        <div class="input-div pass">
+            <div class="i">
+                <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+                <h5>Repeat Password</h5>
+                <input id="repeatPassword" type="password" class="input">
+                <span class="eye" onclick="myFunction2()">
+                    <i id="repeathide1" class="fa fa-eye" aria-hidden="true"></i>
+                    <i id="repeathide2" class="fa fa-eye-slash" aria-hidden="true"></i>
+                </span>
+            </div>
+        </div>
+        <h6 style="color: red" id="rooleRepeatPassword"></h6>
+        <div class="select">
+            <select name="format" id="format">
+                <option id="op" value="Choose an Age" selected disabled>Choose an Age</option>
+                <option id="op" value="without_genres">Old</option>
+                <option id="op" value="with_genres=16">Child</option>
+            </select>
+        </div>
+        <h6 style="color: red;" id="selectedFormat"></h6>
+        <input type="submit" id="submit" class="btn" value="Update">
+    </form>
+    <footer>
+        <div class="footer-content">
+            <h3>Kurd Movie Trailer</h3>
+            <p>This website is for movie trailer you can find any movie you think about in the website you can know
+                about everything of the movie you like and you can have account for free and you can save your favuret
+                movie on favuret page.
+            </p>
+            <!-- <ul class="socials">
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+            </ul> -->
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <a href="../home/index.html">KMT</a></p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../MovieSite/index.html">Movie</a></li>
+                    <li><a href="../tv_show/index.html">Tv</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <!-- <script src="../home/nav.js"></script> -->
+    <script src="./setting.js"></script>
+</body>
+
+</html>

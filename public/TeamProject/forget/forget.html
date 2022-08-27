@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Kurd Movie Trailer</title>
+    <link rel="stylesheet" href="./forget.css">
+    <link rel="stylesheet" href="../home/nav.css">
+    <link rel="stylesheet" href="../home/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="../home/dropdown.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            KMT
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li id="dd"><a href="#">Acounnte &dtrif;</a>
+                    <ul class="dropdown">
+                        <li id="ff"><a href="../about/about.html">About</a></li>
+                        <li id="signUpForHiadenOrShow"><a href="./signUp.html">Sign Up</a></li>
+                        <li id="ff"><a href="../Setting/setting.html" id="Setting">Setting</a></li>
+                        <li id="loginForHiadenOrShow" id="ff"><a href="../login/login.html">Login</a></li>
+                        <li id="logutForHiadenOrShow" id="ff"><a id="logout">LogOut</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../MovieSite/index.html">Movie</a></li>
+            <li><a href="../tv_show/index.html">Tv show</a></li>
+            <li><a href="../favourite/favourite.html">Favourite</a></li>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+        <form action="../Search/index.html" method="get">
+            <input type="search" class="search-data" placeholder="Search" required name="s">
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+    </nav>
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <div class="container">
+        <div class="img">
+            <img src="./pngegg.png">
+        </div>
+        <div class="login-content">
+            <form>
+                <!-- <img src="./pngegg.png"> -->
+                <p>write down your email and click on send button to send you code for your email.</p>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Email</h5>
+                        <input id="email" type="email" class="input">
+                    </div>
+                </div>
+                <h6 style="color: red" id="rooleEmail"></h6>
+                <div id="display">
+                    <div class="input-div one">
+                        <div class="i">
+                            <i class="fa fa-share-square"></i>
+                        </div>
+                        <div class="div">
+                            <h5>numbers</h5>
+                            <input id="userName" type="text" class="input">
+                        </div>
+                    </div>
+                    <h6 style="color: red" id="rooleName"></h6>
+                </div>
+                <button id="send" class="btn">send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                <button id="submit" class="btn">submit <i class="fa fa-check" aria-hidden="true"></i></button>
+            </form>
+        </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- ////////////////////////////////////////////////////////////////////////////////////// -->
+
+    <footer>
+        <div class="footer-content">
+            <h3>Kurd Movie Trailer</h3>
+            <p>This website is make by peshawa othman and harem mhamad they are student in
+                charmo university and this website it ferst progect for peshawa and harem. by
+                the way i an sure you will like it becouse it bilde by to secsecful person in the world.
+            </p>
+            <ul class="socials">
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <a href="../home/index.html">KMT</a></p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../MovieSite/index.html">Movie</a></li>
+                    <li><a href="../tv_show/index.html">Tv Show</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                    <li><a href="./signUp.html">signUp</a></li>
+                    <li><a href="../login/login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="../home/nav.js"></script>
+    <script src="./forget.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+</body>
+
+</html>

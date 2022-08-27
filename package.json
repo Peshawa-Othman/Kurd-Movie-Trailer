@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@splidejs/splide": "^3.6.12",
+    "color.js": "^1.2.0",
+    "fast-average-color": "^7.1.0",
+    "firebase": "^9.8.4"
+  }
+}

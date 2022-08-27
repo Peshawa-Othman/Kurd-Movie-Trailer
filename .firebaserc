@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "kurdmovie-4b5d8",
+    "testing": "kurdmovie-4b5d8"
+  },
+  "targets": {}
+}

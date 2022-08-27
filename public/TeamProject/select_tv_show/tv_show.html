@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Kurd Movie Trailer</title>
+    <link rel="stylesheet" href="../home/nav.css">
+    <link rel="stylesheet" href="../home/footer.css">
+    <link rel="stylesheet" href="../home/style.css">
+    <link rel="stylesheet" href="./trailer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../home/dropdown.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="menu-icon">
+            <span class="fas fa-bars"></span>
+        </div>
+        <div class="logo">
+            KMT
+        </div>
+        <div class="nav-items">
+            <ul>
+                <li id="dd"><a href="#">Acounnte &dtrif;</a>
+                    <ul class="dropdown">
+                        <li id="ff"><a href="../about/about.html">About</a></li>
+                        <li id="signUpForHiadenOrShow"><a href="../signUp/signUp.html">Register</a></li>
+                        <li id="ff"><a href="../Setting/setting.html" id="Setting">Setting</a></li>
+                        <li id="loginForHiadenOrShow"><a href="../login/login.html">Login</a></li>
+                        <li id="logutForHiadenOrShow"><a id="logout">LogOut</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <li id="items"><a href="../home/index.html">Home</a></li>
+            <li id="items"><a href="../MovieView/index.html">Movie</a></li>
+            <li id="items"><a href="../tv_show/index.html">Tv show</a></li>
+            <li id="items"><a href="../favourite/favourite.html">Favourite</a></li>
+        </div>
+        <div class="search-icon">
+            <span class="fas fa-search"></span>
+        </div>
+        <div class="cancel-icon">
+            <span class="fas fa-times"></span>
+        </div>
+        <form action="../Search/index.html" method="get">
+            <input type="search" class="search-data" placeholder="Search" required name="s">
+            <button type="submit" class="fas fa-search"></button>
+        </form>
+    </nav>
+    <!-- slideShow -->
+    <div id="mySlide" class="carousel" data-flickity='{ "wrapAround": true}'>
+
+    </div>
+    <div id="genres">
+
+    </div>
+    <div id="videoContainer">
+
+
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+    </div>
+    <!-- //////////////////////////////////////////////////////////////////////////// -->
+    <footer>
+        <div class="footer-content">
+            <h3>Kurd Movie Trailer</h3>
+            <p>This website is for movie trailer you can find any movie you think about in the website you can know
+                about everything of the movie you like and you can have account for free and you can save your favuret
+                movie on favuret page.
+            </p>
+            <!-- <ul class="socials">
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+                <li><a href="#"><i></i></a></li>
+            </ul> -->
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <a href="../home/index.html">KMT</a></p>
+            <div class="footer-menu">
+                <ul class="f-menu">
+                    <li><a href="../home/index.html">Home</a></li>
+                    <li><a href="../MovieView/index.html">Movie</a></li>
+                    <li><a href="../tv_show/index.html">Tv</a></li>
+                    <li><a href="../about/about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <script src="../home/nav.js"></script>
+    <!-- <script src="../home/main.js"></script> -->
+    <script src="./tv_show.js"></script>
+    <script src="./slideMovie.js"></script>
+</body>
+
+</html>
